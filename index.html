@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио веб-разработчика</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+
+        <div class="container">
+            <img src="media/images/my_photo.jpeg" alt="Фото разработчика" class="avatar">
+            <h1>Игорь Кучеренко</h1>
+            <p class="tagline">Системный администратор | Веб-разработчик</p>
+            <div class="social-links">
+                <a href="https://github.com/igkfellk/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/FellK" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://wiki.fellk.ru/doku.php/start" target="_blank"><i class="fas fa-book"></i></a>
+                <a href="https://hh.ru/resume/0e1dcae4ff0bfe848c0039ed1f616336445465" target="_blank" class="hh-link">
+                    <img src="media/images/hh.webp" alt="hh.ru">
+                </a>
+                
+            </div>
+                    <div class="theme-switcher">
+    <input type="checkbox" id="themeToggle" class="theme-switcher__input">
+    <label for="themeToggle" class="theme-switcher__label">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <span class="theme-switcher__ball"></span>
+    </label>
+</div>
+        </div>
+    </header>
+    
+    <!-- Skills -->
+    <section class="skills">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            
+            <!-- Блок веб-разработки -->
+            <div class="skills-block">
+                <h3 class="skills-subtitle">Веб-разработка</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <h4>Git</h4>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Блок системного администрирования -->
+            <div class="skills-block">
+                <h3 class="skills-subtitle">Системное администрирование</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h4>Linux/Windows</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <h4>Сети</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h4>СУБД</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-hdd"></i></div>
+                        <h4>СХД</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-save"></i></div>
+                        <h4>Бекапы</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                        <h4>CLI</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-sync-alt"></i></div>
+                        <h4>Мониторинг</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-shield-virus"></i></div>
+                        <h4>Защита</h4>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <h4>Виртуализация</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Мои работы</h2>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="media/images/img_1.png" alt="Проект 1">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Итоговый проект по курсу web-разработки</h3>
+                        <p class="card-description">Сайт-блог</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://igkfellk.github.io/web-practice-final/" class="card-link">Посмотреть проект</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="media/images/img_2.png" alt="Проект 2">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Практическая работа Интернет-магазин</h3>
+                        <p class="card-description">Практическая работа по созданию страницы интернет-магазина</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://igkfellk.github.io/web-practice-3/" class="card-link">Посмотреть проект</a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="media/images/img_3.png" alt="Проект 3">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Практическая работа Бронирование отелей</h3>
+                        <p class="card-description">Практическая работа по созданию страницы бронирования отелей</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://igkfellk.github.io/web-practice-4/" class="card-link">Посмотреть проект</a>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <img src="media/images/img_4.png" alt="Проект 4">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Сайт-визитка</h3>
+                        <p class="card-description">Сайт актрисы, чревовещателя Берты Пяттоевой</p>
+                        <div class="card-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://berta-ko.ru/" class="card-link">Посмотреть проект</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь со мной</h2>
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>i.kucherenko@fellk.ru</span>
+                </a>
+                <a href="https://t.me/FellK" target="_blank" class="contact-link">
+                    <i class="fab fa-telegram"></i>
+                    <span>@FellK</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p class="footer-text">© 2025 Портфолио Системного администратора | Веб-разработчика. Все права защищены.</p>
+        </div>
+    </footer>
+    <div class="scroll-to-top" id="scrollToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+<script src="scripts/scroll.js"></script>
+<script src="scripts/theme.js"></script>
+</body>
+</html>
